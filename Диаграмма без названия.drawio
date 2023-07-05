@@ -1,9 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2023-07-05T17:03:07.816Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.6.1" etag="4lJkUfGQh4VeHK6pby01" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-05T17:15:30.642Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="RhK8Gs95r2Ej00gswLd4" version="21.6.1" type="github">
   <diagram name="Страница 1" id="r6BiXpioU9J_zREN7Pe-">
-    <mxGraphModel>
+    <mxGraphModel dx="1195" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="wm3g7r2LdRMXzolMdjJL-1" value="База данных:&lt;br&gt;Пользователи&lt;br&gt;Книги&lt;br&gt;Магазины" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="240" y="280" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wm3g7r2LdRMXzolMdjJL-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="wm3g7r2LdRMXzolMdjJL-2" target="wm3g7r2LdRMXzolMdjJL-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wm3g7r2LdRMXzolMdjJL-2" value="Сервер:&lt;br&gt;Магазины" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="240" y="430" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wm3g7r2LdRMXzolMdjJL-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wm3g7r2LdRMXzolMdjJL-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="347" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="377" y="390" />
+              <mxPoint x="377" y="347" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wm3g7r2LdRMXzolMdjJL-6" value="Сервер:&lt;br&gt;Книги (четный id)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="414" y="350" width="106" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wm3g7r2LdRMXzolMdjJL-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.67;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wm3g7r2LdRMXzolMdjJL-7" target="wm3g7r2LdRMXzolMdjJL-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wm3g7r2LdRMXzolMdjJL-7" value="Сервер:&lt;br&gt;Книги (нечетный id)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="414" y="280" width="106" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wm3g7r2LdRMXzolMdjJL-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wm3g7r2LdRMXzolMdjJL-10" target="wm3g7r2LdRMXzolMdjJL-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wm3g7r2LdRMXzolMdjJL-10" value="Сервер:&lt;br&gt;Пользователи (логин, пароль)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="240" y="140" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wm3g7r2LdRMXzolMdjJL-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wm3g7r2LdRMXzolMdjJL-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="240" />
+              <mxPoint x="290" y="240" />
+              <mxPoint x="290" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wm3g7r2LdRMXzolMdjJL-11" value="Сервер:&lt;br&gt;Пользователи (имя, фамилия, адрес и т.д.)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="350" y="110" width="100" height="110" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
